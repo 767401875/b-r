@@ -1,6 +1,7 @@
 package com.ISCAS.OneBeltOneRoad.web.menu;
 
 import com.ISCAS.OneBeltOneRoad.dao.BrAuthorityDao;
+import com.ISCAS.OneBeltOneRoad.entity.SystemUser;
 import com.ISCAS.OneBeltOneRoad.entity.annotations.AnnotationRefQueryParam;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAuthority;
 import com.ISCAS.OneBeltOneRoad.entity.maps.*;
@@ -13,16 +14,21 @@ import com.ISCAS.OneBeltOneRoad.entity.homeMenu.LogoItemParam;
 import com.ISCAS.OneBeltOneRoad.entity.annotations.AnnotationRef;
 import com.ISCAS.OneBeltOneRoad.entity.maps.AnnotationLayersSource;
 import com.ISCAS.OneBeltOneRoad.service.GisMenuService;
+import com.ISCAS.OneBeltOneRoad.util.HttpServletRequestUtil;
+import com.ISCAS.OneBeltOneRoad.util.JWTUtil;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import java.lang.reflect.Array;
+import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -154,10 +160,23 @@ public class GisMenuController {
      */
     @RequestMapping(value = "/annotations", method = RequestMethod.GET)
     @ResponseBody
-    Map<String, Object> annotationsByUserController(HttpServletRequest request){
+    Map<String, Object> annotationsByUserController(HttpServletRequest request, @RequestHeader HttpHeaders  headers, HttpServletResponse response){
         Map<String, Object> modelMap = new HashMap<>();
-
-        BrAuthority brAuthority = brAuthorityDao.selectAuthority(1);
+        //根据access确认用户信息
+        String access = headers.getFirst("Authorization");
+//        String access = HttpServletRequestUtil.getString(request, "Authorization");
+        //前端请求为Bearer TokenString
+        String[] accessSplits = access.split(" ");
+        access = accessSplits[accessSplits.length - 1];
+        if(access == null){
+            modelMap.put("errMsg", "不包含refresh字段");
+            response.setHeader("code", "403");
+            response.setStatus(403);
+            return null;
+        }
+        SystemUser user = JWTUtil.unsign(access, SystemUser.class);
+        BrAuthority brAuthority = brAuthorityDao.selectAuthority((int)user.getId());
+//        BrAuthority brAuthority = brAuthorityDao.selectAuthority(2);
         String menuItems = brAuthority.getMenuItemId();
         String[] menuItem = menuItems.split(",");
         Integer menuItemAllSize = gisMenuService.getMenuItemCount();
