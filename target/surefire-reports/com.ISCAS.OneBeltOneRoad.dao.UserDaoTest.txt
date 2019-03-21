@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.ISCAS.OneBeltOneRoad.dao.UserDaoTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 8, Time elapsed: 0.006 s <<< FAILURE! - in com.ISCAS.OneBeltOneRoad.dao.UserDaoTest
+insertUser(com.ISCAS.OneBeltOneRoad.dao.UserDaoTest)  Time elapsed: 0.006 s  <<< ERROR!
+org.springframework.dao.DataIntegrityViolationException: 
+
+### Error updating database.  Cause: org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  详细：Failing row contains (null, 王五, 男, qweasdf13@qq.com, 789456231, 789456231, 2019-03-14, wangwu, C:\Users\qsq\Desktop\gis\1515048493934.jpg, null, null, 0, 0).
+### The error may involve com.ISCAS.OneBeltOneRoad.dao.UserDao.insertUser-Inline
+### The error occurred while setting parameters
+### SQL: insert into public.system_user(         name, sex, email, phone, password, birthday, login_name, picture, create_time, last_edit_time, enable_status, priority         )         values (         ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?         )
+### Cause: org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  详细：Failing row contains (null, 王五, 男, qweasdf13@qq.com, 789456231, 789456231, 2019-03-14, wangwu, C:\Users\qsq\Desktop\gis\1515048493934.jpg, null, null, 0, 0).
+; SQL []; ERROR: null value in column "id" violates not-null constraint
+  详细：Failing row contains (null, 王五, 男, qweasdf13@qq.com, 789456231, 789456231, 2019-03-14, wangwu, C:\Users\qsq\Desktop\gis\1515048493934.jpg, null, null, 0, 0).; nested exception is org.postgresql.util.PSQLException: ERROR: null value in column "id" violates not-null constraint
+  详细：Failing row contains (null, 王五, 男, qweasdf13@qq.com, 789456231, 789456231, 2019-03-14, wangwu, C:\Users\qsq\Desktop\gis\1515048493934.jpg, null, null, 0, 0).
+	at com.ISCAS.OneBeltOneRoad.dao.UserDaoTest.insertUser(UserDaoTest.java:26)
+Caused by: org.postgresql.util.PSQLException: 
+ERROR: null value in column "id" violates not-null constraint
+  详细：Failing row contains (null, 王五, 男, qweasdf13@qq.com, 789456231, 789456231, 2019-03-14, wangwu, C:\Users\qsq\Desktop\gis\1515048493934.jpg, null, null, 0, 0).
+	at com.ISCAS.OneBeltOneRoad.dao.UserDaoTest.insertUser(UserDaoTest.java:26)
+

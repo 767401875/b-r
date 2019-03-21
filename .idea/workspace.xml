@@ -1,0 +1,1832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OneBeltOneRoad:war" />
+      <artifact name="OneBeltOneRoad:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/BrImportProjectDaoTest.java" line="50" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99d76960-e5c7-4eb6-a083-e799cffa1d65" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/OneBeltOneRoad$GisDataDaoTest.ic" NAME="GisDataDaoTest Coverage Results" MODIFIED="1548811357884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ISCAS.OneBeltOneRoad.dao.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/OneBeltOneRoad$JsonUtil.ic" NAME="JsonUtil Coverage Results" MODIFIED="1546585738767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ISCAS.OneBeltOneRoad.util.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="beltroad@192.168.2.38" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="beltroad@192.168.2.38" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="beltroad@192.168.2.38" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="beltroad: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="OneBeltOneRoad" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.672682">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="162">
+                  <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GisMenuController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="163" column="33" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TokenManagementController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/TokenManagementController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="378">
+                  <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="BrAuthority.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/br/BrAuthority.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+                  <folding>
+                    <element signature="e#183#184#0" expanded="true" />
+                    <element signature="e#208#209#0" expanded="true" />
+                    <element signature="e#245#246#0" expanded="true" />
+                    <element signature="e#273#274#0" expanded="true" />
+                    <element signature="e#307#308#0" expanded="true" />
+                    <element signature="e#336#337#0" expanded="true" />
+                    <element signature="e#381#382#0" expanded="true" />
+                    <element signature="e#417#418#0" expanded="true" />
+                    <element signature="e#454#455#0" expanded="true" />
+                    <element signature="e#487#488#0" expanded="true" />
+                    <element signature="e#539#540#0" expanded="true" />
+                    <element signature="e#583#584#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BrAnnotations.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/br/BrAnnotations.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="774">
+                  <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+                  <folding>
+                    <element signature="e#339#340#0" expanded="true" />
+                    <element signature="e#364#365#0" expanded="true" />
+                    <element signature="e#1299#1300#0" expanded="true" />
+                    <element signature="e#1330#1331#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AnnotationMenuData.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/annotations/AnnotationMenuData.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
+        <option value="XSLT Stylesheet" />
+        <option value="myBatis-config" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Tile</find>
+      <find>Object feature</find>
+      <find>Vector</find>
+      <find>GeoJsonItemSource</find>
+      <find>geometry</find>
+      <find>coordinates[x]</find>
+      <find>queryBrAnnotationData</find>
+      <find>WmsItemHandler</find>
+      <find>layerFeatures</find>
+      <find>System.out</find>
+      <find>getUserByLogin</find>
+      <find>queryUserByLogin</find>
+      <find>STYLES</find>
+      <find>Params</find>
+      <find>sTimeData</find>
+      <find>StyleData</find>
+      <find>showUp</find>
+      <find>AnnotationMenuData</find>
+      <find>MapData</find>
+      <find>Annotation</find>
+      <find>AnnotationData</find>
+      <find>annotationStyleUtil</find>
+      <find>induceGeoJsonHandler</find>
+      <find>jsonUtil</find>
+      <find>jsonArraySort</find>
+      <find>queryBrAnnotationsAll</find>
+      <find>getBrAnnotations</find>
+      <find>getFieldValueByName</find>
+      <find>getHomeMenu</find>
+      <find>subAnnotationMenuDataByUser</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/keypoint/KeyPointData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/layerFeatures/LayerFeatures.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/layerFeatures/LayerFeaturesProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/layers/AnnotationLayerObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/OsmItem/OsmItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/param/AnnotationRefQueryParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/param/AnnotationSourceParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/param/DeptParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/param/MapsItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/param/MapsParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/ref/AnnotationRef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/style/CurTimeStyle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/style/FillDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/style/StaticStyle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/style/StrokeDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/style/StyleDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/WmsItem/WmsItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/WmsItem/WmsItemSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/WmsItem/WmsItemSourceParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/Annotation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/source/AnnotationLayersSource.java" />
+        <option value="$PROJECT_DIR$/../gis-frontend/src/data/modelDefs.ts" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/homeMenu/LogoItemParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/maps/AnnotationLayerObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/maps/AnnotationSourceParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/maps/AnnotationLayersSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/annotations/AnnotationMenuData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/annotations/AnnotationRefQueryParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/data/style/CurTimeStyle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/chart/AnnotationDataChart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/data/chart/AnnotationDataChart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/data/Echarts/EchartsItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/data/WmsItem/WmsItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/data/OsmItem/OsmItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/data/layerFeatures/LayerFeaturesGeometry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/data/GisDataController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/GisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/BrImportProjectDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/TestFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/br/BrAuthority.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/BrAuthority.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/BrAuthorityDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/BrAuthorityDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/BrAuthorityDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/GisMenuDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisMenuService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OneBeltOneRoad Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OneBeltOneRoad Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="E:/jar" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.26551723" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://git.imooc.com/coding-149/coding-149.git" />
+      <recent name="https://github.com/tomsun28/bootshiro.git" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\OneBeltOneRoad\src\main\resources\mapper" />
+      <recent name="E:\code\OneBeltOneRoad\src\main\resources" />
+      <recent name="E:\code\OneBeltOneRoad\src\main\webapp\WEB-INF\html\user" />
+      <recent name="E:\code\OneBeltOneRoad\src\main\webapp\image" />
+      <recent name="E:\code\OneBeltOneRoad\src\main\webapp\framework\bootstrap-4.1.3-dist\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\OneBeltOneRoad\src\main\webapp\geoJSON" />
+      <recent name="E:\code\OneBeltOneRoad\src\main\resources\uploadFiles" />
+      <recent name="E:\code\OneBeltOneRoad\src\main\resources\geojson" />
+      <recent name="E:\code\OneBeltOneRoad\src\main\webapp\framework\bootstrapcdn" />
+      <recent name="E:\code\OneBeltOneRoad\src\main\webapp\resources\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.BeltRoad">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BrAuthorityDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OneBeltOneRoad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ISCAS.OneBeltOneRoad.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ISCAS.OneBeltOneRoad.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ISCAS.OneBeltOneRoad.dao.BrAuthorityDaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BrAuthorityDaoTest.selectAuthority" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OneBeltOneRoad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ISCAS.OneBeltOneRoad.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ISCAS.OneBeltOneRoad.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ISCAS.OneBeltOneRoad.dao.BrAuthorityDaoTest" />
+      <option name="METHOD_NAME" value="selectAuthority" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BrImportProjectDaoTest.selectBrImportCountryAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OneBeltOneRoad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ISCAS.OneBeltOneRoad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ISCAS.OneBeltOneRoad" />
+      <option name="MAIN_CLASS_NAME" value="com.ISCAS.OneBeltOneRoad.BrImportProjectDaoTest" />
+      <option name="METHOD_NAME" value="selectBrImportCountryAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GisMenuDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OneBeltOneRoad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ISCAS.OneBeltOneRoad.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ISCAS.OneBeltOneRoad.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ISCAS.OneBeltOneRoad.dao.GisMenuDaoTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GisMenuDaoTest.queryMenuItemCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OneBeltOneRoad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ISCAS.OneBeltOneRoad.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ISCAS.OneBeltOneRoad.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ISCAS.OneBeltOneRoad.dao.GisMenuDaoTest" />
+      <option name="METHOD_NAME" value="queryMenuItemCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="BeltRoad" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="OneBeltOneRoad:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_OneBeltOneRoad" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58049" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="OneBeltOneRoad:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_OneBeltOneRoad" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58049" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="OneBeltOneRoad:war" />
+          <artifact name="OneBeltOneRoad:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.BeltRoad" />
+      <item itemvalue="JUnit.BrImportProjectDaoTest.selectBrImportCountryAllTest" />
+      <item itemvalue="JUnit.BrAuthorityDaoTest" />
+      <item itemvalue="JUnit.BrAuthorityDaoTest.selectAuthority" />
+      <item itemvalue="JUnit.GisMenuDaoTest" />
+      <item itemvalue="JUnit.GisMenuDaoTest.queryMenuItemCount" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GisMenuDaoTest.queryMenuItemCount" />
+        <item itemvalue="JUnit.GisMenuDaoTest" />
+        <item itemvalue="JUnit.BrAuthorityDaoTest.selectAuthority" />
+        <item itemvalue="JUnit.BrAuthorityDaoTest" />
+        <item itemvalue="JUnit.BrImportProjectDaoTest.selectBrImportCountryAllTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99d76960-e5c7-4eb6-a083-e799cffa1d65" name="Default" comment="" />
+      <created>1540880936796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540880936796</updated>
+      <workItem from="1540880938789" duration="29972000" />
+      <workItem from="1541033074963" duration="28345000" />
+      <workItem from="1541118532202" duration="13464000" />
+      <workItem from="1541137761185" duration="9723000" />
+      <workItem from="1541468007432" duration="24902000" />
+      <workItem from="1541551772731" duration="16646000" />
+      <workItem from="1541641894017" duration="6200000" />
+      <workItem from="1541671071092" duration="1203000" />
+      <workItem from="1541854609694" duration="5488000" />
+      <workItem from="1541983446999" duration="19803000" />
+      <workItem from="1542608731263" duration="4915000" />
+      <workItem from="1542955006716" duration="3700000" />
+      <workItem from="1543279959956" duration="52933000" />
+      <workItem from="1543452545265" duration="28371000" />
+      <workItem from="1543802741818" duration="26065000" />
+      <workItem from="1543883702012" duration="55447000" />
+      <workItem from="1544057042882" duration="35556000" />
+      <workItem from="1544401923347" duration="3082000" />
+      <workItem from="1545353222557" duration="613000" />
+      <workItem from="1545566029281" duration="97598000" />
+      <workItem from="1546318494638" duration="77453000" />
+      <workItem from="1546585505854" duration="21363000" />
+      <workItem from="1546846140530" duration="51505000" />
+      <workItem from="1547081771047" duration="52441000" />
+      <workItem from="1547377614954" duration="13382000" />
+      <workItem from="1547519097161" duration="28260000" />
+      <workItem from="1547687532791" duration="39953000" />
+      <workItem from="1548031192910" duration="39460000" />
+      <workItem from="1548206738341" duration="2520000" />
+      <workItem from="1548209523804" duration="40582000" />
+      <workItem from="1548397277953" duration="6314000" />
+      <workItem from="1548642179669" duration="11535000" />
+      <workItem from="1548671528636" duration="65767000" />
+      <workItem from="1548917443227" duration="8614000" />
+      <workItem from="1548985486642" duration="30646000" />
+      <workItem from="1549765321443" duration="23445000" />
+      <workItem from="1549860241319" duration="3591000" />
+      <workItem from="1550038776711" duration="1278000" />
+      <workItem from="1550236381931" duration="2487000" />
+      <workItem from="1550283294817" duration="3257000" />
+      <workItem from="1550475496725" duration="29281000" />
+      <workItem from="1550904438198" duration="1048000" />
+      <workItem from="1551249971567" duration="14146000" />
+      <workItem from="1551667480107" duration="2453000" />
+      <workItem from="1551948065173" duration="1626000" />
+      <workItem from="1552461479683" duration="4686000" />
+      <workItem from="1552479283955" duration="10000" />
+      <workItem from="1552545687741" duration="7321000" />
+      <workItem from="1552556695710" duration="200000" />
+      <workItem from="1552556915363" duration="3242000" />
+      <workItem from="1552893736114" duration="639000" />
+      <workItem from="1552913839615" duration="29515000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BrAuthorityDaoTest_selectAuthority - 2019.03.19 at 17h 11m 48s.xml">
+      <configuration name="BrAuthorityDaoTest.selectAuthority" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BrAuthorityDaoTest_selectAuthority - 2019.03.19 at 17h 12m 00s.xml">
+      <configuration name="BrAuthorityDaoTest.selectAuthority" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BrAuthorityDaoTest_selectAuthority - 2019.03.19 at 17h 17m 38s.xml">
+      <configuration name="BrAuthorityDaoTest.selectAuthority" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BrAuthorityDaoTest_selectAuthority - 2019.03.19 at 17h 17m 47s.xml">
+      <configuration name="BrAuthorityDaoTest.selectAuthority" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BrAuthorityDaoTest_selectAuthority - 2019.03.19 at 17h 18m 00s.xml">
+      <configuration name="BrAuthorityDaoTest.selectAuthority" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BrAuthorityDaoTest_selectAuthority - 2019.03.19 at 17h 18m 16s.xml">
+      <configuration name="BrAuthorityDaoTest.selectAuthority" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BrAuthorityDaoTest_selectAuthority - 2019.03.20 at 16h 11m 38s.xml">
+      <configuration name="BrAuthorityDaoTest.selectAuthority" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GisMenuDaoTest - 2019.03.20 at 16h 50m 01s.xml">
+      <configuration name="GisMenuDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GisMenuDaoTest - 2019.03.20 at 16h 50m 55s.xml">
+      <configuration name="GisMenuDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GisMenuDaoTest_queryMenuItemCount - 2019.03.20 at 16h 51m 06s.xml">
+      <configuration name="GisMenuDaoTest.queryMenuItemCount" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1082046000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159913" side_tool="true" weight="0.29078802" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49947917" weight="0.32852387" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32900432" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3296875" />
+      <window_info id="Structure" order="1" sideWeight="0.5031746" side_tool="true" weight="0.1369936" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25971144" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49946696" weight="0.32852387" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32963374" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.2552719" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32963374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49500555" visible="true" weight="0.1391258" />
+      <window_info anchor="right" id="Bean Validation" order="4" weight="0.32995737" />
+      <window_info id="Web" order="2" sideWeight="0.50499445" side_tool="true" weight="0.1705757" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" sideWeight="0.5031746" side_tool="true" weight="0.1369936" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32852387" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49947917" weight="0.32852387" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="TypeScript" order="15" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.2608213" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5031746" side_tool="true" weight="0.1369936" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32963374" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.29078802" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49946696" weight="0.32852387" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32963374" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49500555" visible="true" weight="0.19029851" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3296875" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" sideWeight="0.50499445" side_tool="true" weight="0.1705757" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" sideWeight="0.5031746" side_tool="true" weight="0.1369936" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32852387" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.30077693" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/UserServiceImpl.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/UserServiceImpl.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PathUtil.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PictureUtil.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PathUtil.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PathUtil.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/UserServiceImpl.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PathUtil.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PictureFileUtil.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/UserServiceImpl.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/UserServiceImpl.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/UserServiceImpl.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/UserServiceImpl.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PictureFileUtil.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JsonUtil.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JsonUtil.java</url>
+          <line>359</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JsonUtil.java</url>
+          <line>378</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JsonUtil.java</url>
+          <line>426</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JsonUtil.java</url>
+          <line>242</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JsonUtil.java</url>
+          <line>246</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.java</url>
+          <line>172</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JWTUtil.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/TokenManagementController.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JWTUtil.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JWTUtil.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/SysDeptService.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/SysDeptDaoTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/BeanValidator.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/SysDeptDaoTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/BrImportProjectDaoTest.java</url>
+          <line>308</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java</url>
+          <line>282</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/GisUtil.java</url>
+          <line>294</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/GisUtil.java</url>
+          <line>295</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java</url>
+          <line>403</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/TokenManagementController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/BrAuthorityDaoTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.java</url>
+          <line>172</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.java</url>
+          <line>258</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.java</url>
+          <line>264</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.java</url>
+          <line>287</line>
+          <properties />
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/Documents/WeChat Files/qsq198908/Files/fakeData.ts</url>
+          <line>57</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../gis-frontend/src/data/modelDefs.ts</url>
+          <line>434</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="190" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="systemUser" />
+        <watch expression="dataItems[0]" />
+      </configuration>
+      <configuration name="JUnit">
+        <watch expression="annotationDataChartOptions" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="OneBeltOneRoad" type="b2602c69:ProjectViewProjectNode" />
+        <item name="OneBeltOneRoad" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>tempUser</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/common/RequestHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/SysDeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/homeMenu/HomeMenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/keypoint/KeyPointData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/enums/UserStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/Interceptor/TokenInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/Interceptor/UserManageInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/homeMenu/LogoItemParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-772" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/GisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4106">
+          <caret line="378" column="84" selection-start-line="378" selection-start-column="84" selection-end-line="378" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PictureUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PictureFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PathUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/PageCalculatorUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/data/GisDataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/TestFunction.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/BrImportProjectDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BrDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2196">
+          <caret line="251" column="27" selection-start-line="251" selection-start-column="27" selection-end-line="251" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/javase/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
+          <folding>
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/SystemUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BrAuthorityDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/BrAuthorityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/BrDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/br/BrAuthority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/javase/src.zip!/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="332" column="40" selection-start-line="332" selection-start-column="30" selection-end-line="332" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/BrAuthorityDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GisDataDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GisMenuDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding>
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/br/BrAnnotations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/annotations/AnnotationMenuData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="163" column="33" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/TokenManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>OneBeltOneRoad:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26551723" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26551723" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>OneBeltOneRoad</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26551723" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26551723" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

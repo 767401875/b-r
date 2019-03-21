@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.ISCAS.OneBeltOneRoad.dao.GisMenuDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.ISCAS.OneBeltOneRoad.dao.GisMenuDaoTest
+initializationError(com.ISCAS.OneBeltOneRoad.dao.GisMenuDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method getFieldValueByName() should not be static
+
+initializationError(com.ISCAS.OneBeltOneRoad.dao.GisMenuDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method getFieldValueByName() should be void
+
+initializationError(com.ISCAS.OneBeltOneRoad.dao.GisMenuDaoTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method getFieldValueByName should have no parameters
+

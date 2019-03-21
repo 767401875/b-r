@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ISCAS.OneBeltOneRoad.dao.GisMenuDao">
+    <select id="queryHomeMenuAll" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrHomeMenu">
+        select home_menu_id as homeMenuId, home_menu_uuid as homeMenuUuid, home_menu_item as homeMenuItem
+        from public.br_home_menu
+    </select>
+    <select id="queryBrMapsAll" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrMaps">
+        select map_id as mapId, map_uuid as mapUuid, caption, annotation, init, projection, center, leftBottom, rightTop, description
+        from public.br_maps
+        order by mapId
+    </select>
+    <select id="queryBrAnnotationsAll" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotations">
+        select id, caption, description, "timeRelated" timeRelated, "showUp" showUp, "annotationRef_id" as annotationRefId, parent_id as parentId, name
+        from public.br_annotationmenuitem item
+        order by id
+    </select>
+    <select id="querySubNumBrAnnotations" resultType="Integer">
+        select  count(1)
+        from public.br_annotationmenuitem item
+        where item.parent_id =#{parentId}
+    </select>
+    <select id="querySubNumBrFirstLevelAnnotationsMenu" resultType="Integer">
+        select  count(1)
+        from public.br_annotationmenuitem
+        where parent_id is null
+    </select>
+    <select id="queryMenuItemCount" resultType="Integer">
+        SELECT count(1)
+        FROM public.br_annotationmenuitem
+    </select>
+</mapper>

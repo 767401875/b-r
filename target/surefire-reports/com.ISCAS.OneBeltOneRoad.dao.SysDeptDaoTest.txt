@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.ISCAS.OneBeltOneRoad.dao.SysDeptDaoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 5, Time elapsed: 0.075 s <<< FAILURE! - in com.ISCAS.OneBeltOneRoad.dao.SysDeptDaoTest
+getChildrenDeptListByLevelTest(com.ISCAS.OneBeltOneRoad.dao.SysDeptDaoTest)  Time elapsed: 0.075 s  <<< ERROR!
+org.springframework.jdbc.BadSqlGrammarException: 
+
+### Error querying database.  Cause: org.postgresql.util.PSQLException: ERROR: relation "SYS_Permission.sys_dept" does not exist
+  位置：23
+### The error may exist in file [E:\code\OneBeltOneRoad\target\classes\mapper\SysDeptDao.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select *         from "SYS_Permission".sys_dept         where level like ?
+### Cause: org.postgresql.util.PSQLException: ERROR: relation "SYS_Permission.sys_dept" does not exist
+  位置：23
+; bad SQL grammar []; nested exception is org.postgresql.util.PSQLException: ERROR: relation "SYS_Permission.sys_dept" does not exist
+  位置：23
+	at com.ISCAS.OneBeltOneRoad.dao.SysDeptDaoTest.getChildrenDeptListByLevelTest(SysDeptDaoTest.java:27)
+Caused by: org.postgresql.util.PSQLException: 
+ERROR: relation "SYS_Permission.sys_dept" does not exist
+  位置：23
+	at com.ISCAS.OneBeltOneRoad.dao.SysDeptDaoTest.getChildrenDeptListByLevelTest(SysDeptDaoTest.java:27)
+

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ISCAS.OneBeltOneRoad.BrImportProjectDaoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 1.245 s - in com.ISCAS.OneBeltOneRoad.BrImportProjectDaoTest

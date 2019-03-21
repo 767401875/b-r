@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ISCAS.OneBeltOneRoad.dao.BrDao">
+    <select id="selectBrImportProjectAll" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrImportProject">
+        select project.project_id as id, nation, province, city, coordinate,
+                project_name as projectName, project_type as projectType, project_introduction as projectIntroduction, thumbnail,
+                json_path as jsonPath, construction_status as constructionStatus, detail_image as detailImage, domestic_company as domesticCompany
+        from public.br_project project, public.br_construction_site construction_site, public.br_project_site project_site
+        where project.project_id = project_site.project_id and construction_site.location_id = project_site.location_id
+    </select>
+</mapper>

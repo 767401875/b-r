@@ -1,0 +1,39 @@
+.promotion-banner{
+    float: left;
+    margin: 0 10% 0 0;
+    width: 50%;
+}
+.login-section{
+    float: left;
+    margin: 0 10% auto;
+    width: 20%;
+    display: inline;
+}
+.site-body-wrapper{
+    margin: 5% auto;
+}
+.bg_gj{
+    position: absolute;
+}
+.ydyl_gj_box{
+    display: inline;
+    width: 10px;
+}
+.gj_bot{
+    position: absolute;
+    margin: 0 auto auto -5%;
+    /*height: auto;*/
+    width: 10%;
+    display: inline;
+}
+.gj_bot ul{
+    float: right;
+    list-style: none;
+}
+.gj_bot ul li{
+    overflow: hidden;
+}
+#login_form{
+    margin: 0 auto;
+    position: relative;
+}
