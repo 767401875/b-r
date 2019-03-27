@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ISCAS.OneBeltOneRoad.dao.GisMenuDao">
+<mapper namespace="com.ISCAS.OneBeltOneRoad.dao.Gis.GisMenuDao">
     <select id="queryHomeMenuAll" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrHomeMenu">
         select home_menu_id as homeMenuId, home_menu_uuid as homeMenuUuid, home_menu_item as homeMenuItem
         from public.br_home_menu

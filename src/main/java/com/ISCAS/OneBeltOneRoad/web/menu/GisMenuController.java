@@ -1,6 +1,6 @@
 package com.ISCAS.OneBeltOneRoad.web.menu;
 
-import com.ISCAS.OneBeltOneRoad.dao.BrAuthorityDao;
+import com.ISCAS.OneBeltOneRoad.dao.Br.BrAuthorityDao;
 import com.ISCAS.OneBeltOneRoad.entity.SystemUser;
 import com.ISCAS.OneBeltOneRoad.entity.annotations.AnnotationRefQueryParam;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAuthority;
@@ -13,14 +13,14 @@ import com.ISCAS.OneBeltOneRoad.entity.homeMenu.HomeMenuItem;
 import com.ISCAS.OneBeltOneRoad.entity.homeMenu.LogoItemParam;
 import com.ISCAS.OneBeltOneRoad.entity.annotations.AnnotationRef;
 import com.ISCAS.OneBeltOneRoad.entity.maps.AnnotationLayersSource;
+import com.ISCAS.OneBeltOneRoad.service.GisAuthorityService;
+import com.ISCAS.OneBeltOneRoad.service.GisDataService;
 import com.ISCAS.OneBeltOneRoad.service.GisMenuService;
-import com.ISCAS.OneBeltOneRoad.util.HttpServletRequestUtil;
 import com.ISCAS.OneBeltOneRoad.util.JWTUtil;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -40,7 +40,9 @@ public class GisMenuController {
     @Autowired
     GisMenuService gisMenuService;
     @Autowired
-    BrAuthorityDao brAuthorityDao;
+    GisAuthorityService gisAuthorityService;
+//    @Autowired
+//    BrAuthorityDao brAuthorityDao;
     //主页面菜单
     @RequestMapping(value = "/home-menu", method = RequestMethod.GET)
     @ResponseBody
@@ -175,13 +177,13 @@ public class GisMenuController {
             return null;
         }
         SystemUser user = JWTUtil.unsign(access, SystemUser.class);
-        BrAuthority brAuthority = brAuthorityDao.selectAuthority((int)user.getId());
-//        BrAuthority brAuthority = brAuthorityDao.selectAuthority(2);
+        BrAuthority brAuthority = gisAuthorityService.getAuthority((int)user.getId());
+//        BrAuthority brAuthority = brAuthorityDao.selectAuthority((int)user.getId());
         String menuItems = brAuthority.getMenuItemId();
         String[] menuItem = menuItems.split(",");
         Integer menuItemAllSize = gisMenuService.getMenuItemCount();
         boolean[] menuItemFlag = new boolean[menuItem.length];
-//      数据库中返回的结果
+//      数据库中返回的结
         List<BrAnnotations> brAnnotationsList = gisMenuService.getBrAnnotations();
 //        Integer size = gisMenuService.getSubNumBrFirstLevelAnnotationsMenu();
 //      确定权限列表中第一级出现的个数

@@ -1,6 +1,7 @@
 package com.ISCAS.OneBeltOneRoad.dao;
 
 import com.ISCAS.OneBeltOneRoad.BaseTest;
+import com.ISCAS.OneBeltOneRoad.dao.Gis.GisDataDao;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData;
 import com.ISCAS.OneBeltOneRoad.entity.data.OsmItem.OsmItem;
 import com.ISCAS.OneBeltOneRoad.entity.data.WmsItem.WmsItem;
@@ -265,7 +266,7 @@ public class GisDataDaoTest extends BaseTest {
 //        layerFeatures
         String name = "eu-timeline";
 
-        BrAnnotationData brAnnotationDataannotationData = gisDataDao.queryBrAnnotationData(name);
+        BrAnnotationData brAnnotationDataannotationData = gisDataDao.selectBrAnnotationData(name);
         JSONObject jsonObject = new JSONObject(brAnnotationDataannotationData.getLayers());
         JSONArray jsonArray = new JSONArray(jsonObject.getString("value"));
 
@@ -307,7 +308,7 @@ public class GisDataDaoTest extends BaseTest {
 //        String name = "important-countries";
 //        layerFeatures
         String name = "eu-timeline";
-        BrAnnotationData brAnnotationDataannotationData = gisDataDao.queryBrAnnotationData(name);
+        BrAnnotationData brAnnotationDataannotationData = gisDataDao.selectBrAnnotationData(name);
         JSONObject jsonObject = new JSONObject(brAnnotationDataannotationData.getLayerFeatures());
         JSONObject jsonObjectValue = new JSONObject(jsonObject.getString("value"));
         Map<String, Object> modelMap = new HashMap<>();
@@ -402,5 +403,65 @@ public class GisDataDaoTest extends BaseTest {
             modelMap.put(key, layerFeatures);
         }
         System.out.println(modelMap);
+    }
+    @Test
+    @Ignore
+    public void insertBrAnnotationData(){
+        BrAnnotationData brAnnotationData = new BrAnnotationData();
+        brAnnotationData.setId(101);
+        brAnnotationData.setName("qinshenqiang");
+        Object layerFeatures = new JSONObject();
+        ((JSONObject) layerFeatures).put("qsq", "layerFeatures");
+        brAnnotationData.setLayerFeatures(layerFeatures);
+        Object time = new JSONObject();
+        ((JSONObject) time).put("qsq", "time");
+        brAnnotationData.setTime(time);
+        Object style = new JSONObject();
+        ((JSONObject) style).put("qsq", "style");
+        brAnnotationData.setStyle(style);
+        Object chart = new JSONObject();
+        ((JSONObject) chart).put("qsq", "chart");
+        brAnnotationData.setChart(chart);
+        Object keyPoint = new JSONObject();
+        ((JSONObject) keyPoint).put("qsq", "keyPoint");
+        brAnnotationData.setKeyPoint(keyPoint);
+        Object layers = new JSONObject();
+        ((JSONObject) layers).put("qsq", "layers");
+        brAnnotationData.setLayers(layers);
+        Integer count = gisDataDao.insertBrAnnotationData(brAnnotationData);
+        System.out.println(count);
+
+    }
+    @Test
+    @Ignore
+    public void updateBrAnnotationData(){
+        BrAnnotationData brAnnotationData = new BrAnnotationData();
+        brAnnotationData.setId(47);
+        brAnnotationData.setName("qinshenqiang123");
+        Object layerFeatures = new JSONObject();
+        ((JSONObject) layerFeatures).put("qsq", "layerFeatures123");
+        brAnnotationData.setLayerFeatures(layerFeatures);
+        Object time = new JSONObject();
+        ((JSONObject) time).put("qsq", "time123");
+        brAnnotationData.setTime(time);
+        Object style = new JSONObject();
+        ((JSONObject) style).put("qsq", "style123");
+        brAnnotationData.setStyle(style);
+        Object chart = new JSONObject();
+        ((JSONObject) chart).put("qsq", "chart123");
+        brAnnotationData.setChart(chart);
+        Object keyPoint = new JSONObject();
+        ((JSONObject) keyPoint).put("qsq", "keyPoint123");
+        brAnnotationData.setKeyPoint(keyPoint);
+        Object layers = new JSONObject();
+        ((JSONObject) layers).put("qsq", "layers123");
+        brAnnotationData.setLayers(layers);
+        Integer count = gisDataDao.updateBrAnnotationData(brAnnotationData);
+        System.out.println(count);
+    }
+    @Test
+    public void deleteBrAnnotationData(){
+        Integer count = gisDataDao.deleteBrAnnotationData(47);
+        System.out.println(count);
     }
 }

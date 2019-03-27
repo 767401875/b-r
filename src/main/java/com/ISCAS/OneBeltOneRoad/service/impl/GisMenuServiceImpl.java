@@ -1,6 +1,6 @@
 package com.ISCAS.OneBeltOneRoad.service.impl;
 
-import com.ISCAS.OneBeltOneRoad.dao.GisMenuDao;
+import com.ISCAS.OneBeltOneRoad.dao.Gis.GisMenuDao;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotations;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrMaps;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrHomeMenu;

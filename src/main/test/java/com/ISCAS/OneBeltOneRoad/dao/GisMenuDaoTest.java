@@ -1,19 +1,14 @@
 package com.ISCAS.OneBeltOneRoad.dao;
 
 import com.ISCAS.OneBeltOneRoad.BaseTest;
+import com.ISCAS.OneBeltOneRoad.dao.Gis.GisMenuDao;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotations;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrMaps;
-import com.ISCAS.OneBeltOneRoad.entity.br.BrHomeMenu;
-import org.json.JSONObject;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class GisMenuDaoTest extends BaseTest {
     @Autowired

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ISCAS.OneBeltOneRoad.dao.BrDao">
+<mapper namespace="com.ISCAS.OneBeltOneRoad.dao.Br.BrDao">
     <select id="selectBrImportProjectAll" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrImportProject">
         select project.project_id as id, nation, province, city, coordinate,
                 project_name as projectName, project_type as projectType, project_introduction as projectIntroduction, thumbnail,

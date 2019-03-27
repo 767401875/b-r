@@ -1,6 +1,6 @@
 package com.ISCAS.OneBeltOneRoad.web.data;
 
-import com.ISCAS.OneBeltOneRoad.dao.GisDataDao;
+import com.ISCAS.OneBeltOneRoad.dao.Gis.GisDataDao;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData;
 import com.ISCAS.OneBeltOneRoad.entity.data.Echarts.EchartsItem;
 import com.ISCAS.OneBeltOneRoad.entity.data.GeoJsonItem.GeoJsonItem;
@@ -9,6 +9,7 @@ import com.ISCAS.OneBeltOneRoad.entity.data.WmsItem.WmsItem;
 import com.ISCAS.OneBeltOneRoad.entity.data.chart.AnnotationDataChart;
 import com.ISCAS.OneBeltOneRoad.entity.data.AnnotationData;
 import com.ISCAS.OneBeltOneRoad.entity.data.time.AnnotationTimeData;
+import com.ISCAS.OneBeltOneRoad.service.GisDataService;
 import com.ISCAS.OneBeltOneRoad.util.GisUtil;
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -27,13 +28,15 @@ import java.util.Map;
 public class GisDataController {
     @Autowired
     GisDataDao gisDataDao;
+    @Autowired
+    GisDataService gisDataService;
 //    time、style、layers
     @RequestMapping(value = "/{paratemeterName}")
     @ResponseBody
     Map<String, Object> annotationdataController(HttpServletRequest request, @PathVariable String paratemeterName){
         Map<String, Object> modelMap = new HashMap<>();
-        BrAnnotationData brAnnotationData = gisDataDao.queryBrAnnotationData(paratemeterName);
-
+//        BrAnnotationData brAnnotationData = gisDataDao.queryBrAnnotationData(paratemeterName);
+        BrAnnotationData brAnnotationData = gisDataService.getBrAnnotationData(paratemeterName);
         AnnotationData annotationData = new AnnotationData();
         if(brAnnotationData.getLayerFeatures() != null)
             annotationData.setLayerFeatures(brAnnotationData.getLayerFeatures().toString());

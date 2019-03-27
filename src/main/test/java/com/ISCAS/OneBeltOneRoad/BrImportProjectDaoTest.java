@@ -1,6 +1,6 @@
 package com.ISCAS.OneBeltOneRoad;
 
-import com.ISCAS.OneBeltOneRoad.dao.BrDao;
+import com.ISCAS.OneBeltOneRoad.dao.Br.BrDao;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrImportProject;
 import com.ISCAS.OneBeltOneRoad.util.JsonUtil;
 import org.json.JSONArray;

@@ -2,11 +2,23 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ISCAS.OneBeltOneRoad.dao.GisDataDao">
-    <select id="queryBrAnnotationData" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData">
+<mapper namespace="com.ISCAS.OneBeltOneRoad.dao.Gis.GisDataDao">
+    <select id="selectBrAnnotationData" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData">
         SELECT "id", "name", "layerFeatures", "time", "style", "chart", "keyPoint", "layers"
         FROM public.br_annotationdata
         where name = #{name}
     </select>
-
+    <insert id="insertBrAnnotationData" parameterType="com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData">
+        INSERT INTO public.br_annotationdata(name, "layerFeatures", "time", style, chart, "keyPoint", layers)
+	    VALUES(#{name}, '${layerFeatures}', '${time}', '${style}', '${chart}', '${keyPoint}', '${layers}');
+    </insert>
+    <update id="updateBrAnnotationData" parameterType="com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData">
+        UPDATE public.br_annotationdata
+	    SET name=#{name}, "layerFeatures"='${layerFeatures}', "time"='${time}', style='${style}', chart='${chart}', "keyPoint"='${keyPoint}', layers='${layers}'
+	    WHERE id=#{id};
+    </update>
+    <delete id="deleteBrAnnotationData" parameterType="Integer">
+        DELETE FROM public.br_annotationdata
+	    WHERE id=#{id};
+    </delete>
 </mapper>

@@ -1,6 +1,7 @@
 package com.ISCAS.OneBeltOneRoad.dao;
 
 import com.ISCAS.OneBeltOneRoad.BaseTest;
+import com.ISCAS.OneBeltOneRoad.dao.Br.BrAuthorityDao;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAuthority;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
