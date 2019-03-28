@@ -45,4 +45,31 @@ public class GisAnnotationDataManageController {
         }
         return modelMap;
     }
+
+    @RequestMapping(value = "delete", method = RequestMethod.POST)
+    @ResponseBody
+    Map<String, Object> annotationDataDelete(HttpServletRequest request){
+        Map<String, Object> modelMap = new HashMap<>();
+        String brAnnotationDataStr = HttpServletRequestUtil.getString(request, "brAnnotationDataStr");
+        ObjectMapper mapper = new ObjectMapper();
+        try{
+            BrAnnotationData brAnnotationDataRequest = mapper.readValue(brAnnotationDataStr, BrAnnotationData.class);
+            BrAnnotationData brAnnotationData = gisDataService.getBrAnnotationData(brAnnotationDataRequest.getName());
+            if(brAnnotationData != null){
+                Integer count = gisDataService.removeBrAnnotationData(brAnnotationData.getId());
+                if(count > 0){
+                    modelMap.put("success", true);
+                }
+                else {
+                    modelMap.put("errMsg", "插入数据失败");
+                }
+            }else {
+                modelMap.put("errMsg","数据为空!");
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            modelMap.put("errMsg", e.getMessage());
+        }
+        return modelMap;
+    }
 }
