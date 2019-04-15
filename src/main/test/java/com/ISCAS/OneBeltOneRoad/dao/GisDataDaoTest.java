@@ -18,7 +18,9 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class GisDataDaoTest extends BaseTest {
@@ -408,7 +410,6 @@ public class GisDataDaoTest extends BaseTest {
     @Ignore
     public void insertBrAnnotationData(){
         BrAnnotationData brAnnotationData = new BrAnnotationData();
-        brAnnotationData.setId(101);
         brAnnotationData.setName("qinshenqiang");
         Object layerFeatures = new JSONObject();
         ((JSONObject) layerFeatures).put("qsq", "layerFeatures");
@@ -429,7 +430,9 @@ public class GisDataDaoTest extends BaseTest {
         ((JSONObject) layers).put("qsq", "layers");
         brAnnotationData.setLayers(layers);
         Integer count = gisDataDao.insertBrAnnotationData(brAnnotationData);
+        Integer id = brAnnotationData.getId();
         System.out.println(count);
+        System.out.println("id:" + id);
 
     }
     @Test
@@ -460,8 +463,32 @@ public class GisDataDaoTest extends BaseTest {
         System.out.println(count);
     }
     @Test
+    @Ignore
     public void deleteBrAnnotationData(){
         Integer count = gisDataDao.deleteBrAnnotationData(47);
         System.out.println(count);
+    }
+    @Test
+    @Ignore
+    public void selectBrAnnotationDataAll(){
+        List<BrAnnotationData> result = gisDataDao.selectBrAnnotationDataAll();
+        for(BrAnnotationData item : result){
+            System.out.println(item.getName());
+        }
+    }
+    @Test
+    @Ignore
+    public void selectBrAnnotationDataById(){
+        Integer id = 3;
+        BrAnnotationData result = gisDataDao.selectBrAnnotationDataById(id);
+        System.out.println(result.getName());
+    }
+    @Test
+    public void deleteBrAnnotationDataList(){
+        List<Integer> ids = new ArrayList<Integer>();
+        ids.add(103);
+        ids.add(117);
+        int count = gisDataDao.deleteBrAnnotationDataList(ids);
+        System.out.println("delete count:" + count);
     }
 }

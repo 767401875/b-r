@@ -2,8 +2,10 @@ package com.ISCAS.OneBeltOneRoad.dao;
 
 import com.ISCAS.OneBeltOneRoad.BaseTest;
 import com.ISCAS.OneBeltOneRoad.dao.Gis.GisMenuDao;
+import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotations;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrMaps;
+import com.ISCAS.OneBeltOneRoad.entity.data.AnnotationData;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,7 @@ public class GisMenuDaoTest extends BaseTest {
     @Autowired
     GisMenuDao gisMenuDao;
     @Test
+    @Ignore
     public void queryMenuItemCount(){
         System.out.println(gisMenuDao.queryMenuItemCount());
     }
@@ -26,17 +29,7 @@ public class GisMenuDaoTest extends BaseTest {
             System.out.println(brMaps.getAnnotation());
         }
     }
-    @Test
-    @Ignore
-    public void queryBrAnnotationsAllTest(){
-        List<BrAnnotations> brAnnotationsList = gisMenuDao.queryBrAnnotationsAll();
-        int index = 1;
-        for(BrAnnotations brAnnotations : brAnnotationsList){
-//            if(brAnnotations.getName() == null)
-            if(brAnnotations.getAnnotationRefId() == null&&brAnnotations.getParentId() == null)
-             System.out.println(index++ + ": " + brAnnotations.getCaption());
-        }
-    }
+
     @Test
     @Ignore
     public void querySubNumBrAnnotationsTest(){
@@ -44,9 +37,9 @@ public class GisMenuDaoTest extends BaseTest {
         System.out.println(count);
     }
     @Test
+    @Ignore
     public void querySubNumBrFirstLevelAnnotationsMenuTest(){
         Integer count = gisMenuDao.querySubNumBrFirstLevelAnnotationsMenu();
         System.out.println(count);
     }
-
 }

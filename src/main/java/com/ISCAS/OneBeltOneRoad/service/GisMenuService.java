@@ -1,5 +1,6 @@
 package com.ISCAS.OneBeltOneRoad.service;
 
+import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotations;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrMaps;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrHomeMenu;
@@ -14,4 +15,5 @@ public interface GisMenuService {
     Integer getSubNumBrAnnotations(Integer parentId);
     Integer getSubNumBrFirstLevelAnnotationsMenu();
     Integer getMenuItemCount();
+
 }

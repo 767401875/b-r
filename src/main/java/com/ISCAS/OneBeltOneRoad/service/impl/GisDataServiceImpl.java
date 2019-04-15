@@ -6,6 +6,8 @@ import com.ISCAS.OneBeltOneRoad.service.GisDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class GisDataServiceImpl implements GisDataService {
     @Autowired
@@ -28,5 +30,15 @@ public class GisDataServiceImpl implements GisDataService {
     @Override
     public Integer removeBrAnnotationData(Integer id) {
         return gisDataDao.deleteBrAnnotationData(id);
+    }
+
+    @Override
+    public List<BrAnnotationData> getBrAnnotationDataAll() {
+        return gisDataDao.selectBrAnnotationDataAll();
+    }
+
+    @Override
+    public BrAnnotationData getBrAnnotationDataById(Integer id) {
+        return gisDataDao.selectBrAnnotationDataById(id);
     }
 }

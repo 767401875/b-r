@@ -8,7 +8,7 @@
         FROM public.br_annotationdata
         where name = #{name}
     </select>
-    <insert id="insertBrAnnotationData" parameterType="com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData">
+    <insert id="insertBrAnnotationData" parameterType="com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData" keyProperty="id" useGeneratedKeys="true">
         INSERT INTO public.br_annotationdata(name, "layerFeatures", "time", style, chart, "keyPoint", layers)
 	    VALUES(#{name}, '${layerFeatures}', '${time}', '${style}', '${chart}', '${keyPoint}', '${layers}');
     </insert>
@@ -21,4 +21,21 @@
         DELETE FROM public.br_annotationdata
 	    WHERE id=#{id};
     </delete>
+    <delete id="deleteBrAnnotationDataList" parameterType="Integer">
+        DELETE FROM public.br_annotationdata
+        WHERE
+        <foreach item="id" index="index" collection="list" open="(" close=")" separator="OR">
+            id = #{id}
+        </foreach>
+    </delete>
+    <select id="selectBrAnnotationDataById" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData">
+        SELECT "id", "name", "layerFeatures", "time", "style", "chart", "keyPoint", "layers"
+        FROM public.br_annotationdata
+        where id = #{id}
+    </select>
+    <select id="selectBrAnnotationDataAll" resultType="com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData">
+        SELECT "id", "name", "layerFeatures", "time", "style", "chart", "keyPoint", "layers"
+        FROM public.br_annotationdata
+        order by 1
+    </select>
 </mapper>
