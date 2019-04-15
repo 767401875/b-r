@@ -35,6 +35,7 @@ $(function () {
                     }
                 }
             })
+            localStorage.setItem("brAnnotationData", JSON.stringify(brAnnotationData));
         }
 
     );
@@ -144,14 +145,13 @@ $(function () {
             success:function (data) {
                 if(data.success){
                     console.log("success");
-                    alert("success!");
                 }
                 else {
                     console.log(data.errMsg);
-                    alert("error!" + data.errMsg);
                 }
             }
         })
+        localStorage.setItem("brAnnotationData", JSON.stringify(brAnnotationData));
         var newUrl = '/annotationdataadmin/add';
         window.location.href = newUrl;
         window.event.returnValue=false;
@@ -182,11 +182,9 @@ $(function () {
             success:function (data) {
                 if(data.success){
                     console.log("success");
-                    alert("success!");
                 }
                 else {
                     console.log(data.errMsg);
-                    alert("error!" + data.errMsg);
                 }
             }
         });

@@ -29,11 +29,10 @@ $(function () {
             async: false,
             success:function (data) {
                 if(data.success){
-                    alert("success!");
+                    console.log("success");
                 }
                 else {
                     console.log(data.errMsg);
-                    alert("error!" + data.errMsg);
                 }
             }
         });
