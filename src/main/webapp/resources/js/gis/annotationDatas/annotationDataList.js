@@ -89,5 +89,31 @@ $(function() {
         window.location.href = newUrl;
         window.event.returnValue = false;
     })
-
+    $("#action-toggle").click(function (e) {
+        if(this.checked)
+            $('[type="checkbox"]').attr("checked", true);
+        else
+            $('[type="checkbox"]').attr("checked", false);
+    })
+    $("#submit").click(function (e) {
+        var selValue = $('[name="action"]').find("option:selected").val();
+        //选中删除功能
+        if(selValue === "delete_selected"){
+            var temps = $('tbody input[type=checkbox]:checked');
+            var brAnnotationDatas = new Array();
+            for(var i = 0; i < temps.length; i++){
+                var brAnnotationDataItem = {};
+                var temp = temps[i];
+                var text = $(temp.parentNode.parentNode)[0];
+                // var text = temp.parent.parent.find("th a").text;
+                brAnnotationDataItem.id = temp.value;
+                brAnnotationDataItem.name = text.textContent;
+                brAnnotationDatas[i] = brAnnotationDataItem;
+            }
+            localStorage.setItem("brAnnotationDatas", JSON.stringify(brAnnotationDatas));
+            var newUrl = "/annotationdataadmin/delete";
+            window.location.href = newUrl;
+        }
+        window.event.returnValue = false;
+    });
 })

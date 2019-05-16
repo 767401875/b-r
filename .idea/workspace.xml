@@ -11,75 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99d76960-e5c7-4eb6-a083-e799cffa1d65" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemManageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemAdd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemChange.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemDelete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemDelete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/br/BrAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/br/BrAnnotationMenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisMenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/data/GisAnnotationDataAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/data/GisAnnotationDataManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/data/GisDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/frontend/data/GisDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/frontend/menu/GisMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/permission/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/frontend/permission/testController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/TokenManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/frontend/user/TokenManagementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/frontend/user/UserAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/frontend/user/UserManagementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/GisMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GisMenuDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDataAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDataChange.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataChange.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDataDelete.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataDelete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDataList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDataAdd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataAdd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDataChange.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataChange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDataDelete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataDelete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDataList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/util/annotationDataListAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemChange.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/OneBeltOneRoad.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/entity/br/BrAnnotations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/service/GisMenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/service/GisMenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/web/data/GisAnnotationDataAdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/web/data/GisAnnotationDataManageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/web/data/GisDataController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/web/permission/testController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/web/user/TokenManagementController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/web/user/UserAdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/mapper/GisMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/classes/mapper/GisMenuDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/html/gis/annotationDataAdd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/html/gis/annotationDataChange.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/html/gis/annotationDataDelete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/WEB-INF/html/gis/annotationDataList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/resources/js/gis/annotationDataAdd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/resources/js/gis/annotationDataChange.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/resources/js/gis/annotationDataDelete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/resources/js/gis/annotationDataList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad/resources/js/util/annotationDataListAction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/entity/br/BrAnnotations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/service/GisMenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/service/GisMenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/web/data/GisAnnotationDataAdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/web/data/GisAnnotationDataManageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/web/data/GisDataController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/web/menu/GisMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/web/permission/testController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/web/user/TokenManagementController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/web/user/UserAdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ISCAS/OneBeltOneRoad/web/user/UserManagementController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/GisMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/GisMenuDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisDataDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisDataDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/GisDataDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/GisDataDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataDelete.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataDelete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataDelete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataDelete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemDelete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemDelete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OneBeltOneRoad.war" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -132,41 +75,53 @@
     <favorites_list name="OneBeltOneRoad" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5020821">
+    <splitter split-orientation="horizontal" split-proportion="0.39127907">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="GisAnnotationMenuItemManageController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemManageController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1740">
-                  <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+                <state relative-caret-position="324">
+                  <caret line="159" column="112" selection-start-line="159" selection-start-column="112" selection-end-line="159" selection-end-column="112" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="annotationMenuItemChange.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemChange.js">
+          <file leaf-file-name="TypeReference.class" pinned="false" current-in-tab="true">
+            <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar!/com/fasterxml/jackson/core/type/TypeReference.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
-                  <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="55" />
+                <state relative-caret-position="162">
+                  <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="annotationMenuItemDelete.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="annotationMenuItemDelete.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemDelete.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+                <state relative-caret-position="491">
+                  <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GisMenuDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.java">
+          <file leaf-file-name="annotationMenuItemDelete.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemDelete.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="59" />
+                <state relative-caret-position="936">
+                  <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="annotationMenuItemList.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemList.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="162">
+                  <caret line="99" column="16" lean-forward="true" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -174,17 +129,8 @@
           <file leaf-file-name="GisMenuService.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisMenuService.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GisMenuServiceImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="73" column="61" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
+                <state relative-caret-position="270">
+                  <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="59" />
                 </state>
               </provider>
             </entry>
@@ -192,8 +138,8 @@
           <file leaf-file-name="GisMenuDaoTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="469">
-                  <caret line="89" column="34" lean-forward="true" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+                <state relative-caret-position="331">
+                  <caret line="79" column="11" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -201,8 +147,26 @@
           <file leaf-file-name="GisMenuDao.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GisMenuDao.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+                <state relative-caret-position="203">
+                  <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GisMenuDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GisMenuServiceImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="329">
+                  <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -214,17 +178,17 @@
           <file leaf-file-name="annotationDataList.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
+                <state relative-caret-position="325">
+                  <caret line="107" column="17" lean-forward="true" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GisAnnotationDataManageController.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="GisAnnotationDataManageController.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+                <state relative-caret-position="329">
+                  <caret line="158" column="29" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -232,29 +196,60 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="annotationDataChange.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataChange.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="annotationDataChange.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataChange.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3132">
-                  <caret line="174" column="16" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="annotationDataDelete.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="annotationDataDelete.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataDelete.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                <state relative-caret-position="203">
+                  <caret line="72" column="49" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GisDataDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisDataDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="13" column="39" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GisDataDao.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GisDataDao.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="455">
+                  <caret line="40" column="43" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GisDataDaoTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="329">
+                  <caret line="490" column="21" lean-forward="true" selection-start-line="490" selection-start-column="21" selection-end-line="490" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GisDataServiceImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisDataServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="528">
+                  <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+                  <folding>
+                    <element signature="e#1424#1425#0" expanded="true" />
+                    <element signature="e#1451#1452#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GisDataService.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisDataService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="234">
+                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -262,41 +257,8 @@
           <file leaf-file-name="annotationDataDelete.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataDelete.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GisAnnotationDataAdminController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataAdminController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#484#485#0" expanded="true" />
-                    <element signature="e#547#548#0" expanded="true" />
-                    <element signature="e#614#615#0" expanded="true" />
-                    <element signature="e#676#677#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="annotationDataAdd.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataAdd.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="annotationDataAdd.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataAdd.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="5" column="47" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="47" />
+                <state relative-caret-position="-403">
+                  <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -322,9 +284,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>addlink</find>
-      <find>localStorage</find>
-      <find>brAnnotationData.name</find>
       <find>getBrAnnotations</find>
       <find>55</find>
       <find>queryHomeMenuById</find>
@@ -343,15 +302,18 @@
       <find>responsive</find>
       <find>_save</find>
       <find>annotationmenuitemmanage</find>
-      <find>Objects</find>
       <find>delete</find>
       <find>h1</find>
       <find>History</find>
       <find>annotationdatamanage</find>
-      <find>submit</find>
       <find>概要</find>
       <find>ids</find>
       <find>readValue</find>
+      <find>submit</find>
+      <find>sureContent</find>
+      <find>sure</find>
+      <find>Objects</find>
+      <find>summary</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -363,16 +325,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisDataServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDataOperation.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDataOperation.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/data/GisAnnotationDataAdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/data/GisAnnotationDataManageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDataChange.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/util/util.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisDataDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/GisDataDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDataDelete.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/util/actions.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDataList.html" />
@@ -390,7 +347,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/frontend/menu/GisMenuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemAdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataAdminController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemAdd.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemChange.html" />
@@ -398,11 +354,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataAdd.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataChange.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemChange.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataDelete.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataList.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataAdd.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataChange.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataDelete.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataList.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemList.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemList.js" />
@@ -412,8 +365,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/GisMenuDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisMenuService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemDelete.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemManageController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataList.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataDelete.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataDelete.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemDelete.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisDataDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/GisDataDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisDataService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java" />
       </list>
     </option>
   </component>
@@ -478,8 +440,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -779,7 +739,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -834,6 +796,29 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="GisDataDaoTest.deleteBatchBrAnnotationDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OneBeltOneRoad" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ISCAS.OneBeltOneRoad.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ISCAS.OneBeltOneRoad.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ISCAS.OneBeltOneRoad.dao.GisDataDaoTest" />
+      <option name="METHOD_NAME" value="deleteBatchBrAnnotationDataTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="GisMenuDaoTest.deleteBatchBrAnnotationMenuItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OneBeltOneRoad" />
       <extension name="coverage">
@@ -870,29 +855,6 @@
       <option name="PACKAGE_NAME" value="com.ISCAS.OneBeltOneRoad.dao" />
       <option name="MAIN_CLASS_NAME" value="com.ISCAS.OneBeltOneRoad.dao.GisMenuDaoTest" />
       <option name="METHOD_NAME" value="deleteBrAnnotationMenuItemTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="GisMenuDaoTest.insertBrAnnotationMenuItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OneBeltOneRoad" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ISCAS.OneBeltOneRoad.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ISCAS.OneBeltOneRoad.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.ISCAS.OneBeltOneRoad.dao.GisMenuDaoTest" />
-      <option name="METHOD_NAME" value="insertBrAnnotationMenuItemTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1128,19 +1090,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.BeltRoad" />
-      <item itemvalue="JUnit.GisMenuDaoTest.insertBrAnnotationMenuItemTest" />
       <item itemvalue="JUnit.GisMenuDaoTest.updateBrAnnotationMenuItemTest" />
       <item itemvalue="JUnit.GisMenuDaoTest.deleteBrAnnotationMenuItemTest" />
       <item itemvalue="JUnit.GisMenuDaoTest.selectBrAnnotationMenuItemByIdTest" />
       <item itemvalue="JUnit.GisMenuDaoTest.deleteBatchBrAnnotationMenuItemTest" />
+      <item itemvalue="JUnit.GisDataDaoTest.deleteBatchBrAnnotationDataTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GisDataDaoTest.deleteBatchBrAnnotationDataTest" />
         <item itemvalue="JUnit.GisMenuDaoTest.deleteBatchBrAnnotationMenuItemTest" />
         <item itemvalue="JUnit.GisMenuDaoTest.selectBrAnnotationMenuItemByIdTest" />
         <item itemvalue="JUnit.GisMenuDaoTest.deleteBrAnnotationMenuItemTest" />
         <item itemvalue="JUnit.GisMenuDaoTest.updateBrAnnotationMenuItemTest" />
-        <item itemvalue="JUnit.GisMenuDaoTest.insertBrAnnotationMenuItemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1223,13 +1185,12 @@
       <workItem from="1556341538548" duration="7851000" />
       <workItem from="1556418808512" duration="13053000" />
       <workItem from="1557840601090" duration="18534000" />
+      <workItem from="1557966877154" duration="343000" />
+      <workItem from="1557967642484" duration="4803000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GisMenuDaoTest - 2019.04.18 at 21h 39m 44s.xml">
-      <configuration name="GisMenuDaoTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GisMenuDaoTest_insertBrAnnotationMenuItemTest - 2019.04.18 at 21h 39m 52s.xml">
       <configuration name="GisMenuDaoTest.insertBrAnnotationMenuItemTest" configurationId="JUnit" />
     </history-entry>
@@ -1257,9 +1218,12 @@
     <history-entry file="GisMenuDaoTest_deleteBatchBrAnnotationMenuItemTest - 2019.05.15 at 16h 18m 29s.xml">
       <configuration name="GisMenuDaoTest.deleteBatchBrAnnotationMenuItemTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GisDataDaoTest_deleteBatchBrAnnotationDataTest - 2019.05.16 at 10h 18m 57s.xml">
+      <configuration name="GisDataDaoTest.deleteBatchBrAnnotationDataTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1306237000" />
+    <option name="totallyTimeSpent" value="1311383000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1271,7 +1235,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.2588889" />
@@ -1292,22 +1257,22 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32963374" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" weight="0.24" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.24" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32963374" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49" visible="true" weight="0.10394456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49" visible="true" weight="0.08315565" />
       <window_info anchor="right" id="Bean Validation" order="4" weight="0.32995737" />
       <window_info id="Web" order="2" sideWeight="0.509434" side_tool="true" weight="0.15458423" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5031746" side_tool="true" weight="0.1369936" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32777777" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49947917" weight="0.32852387" />
@@ -1664,13 +1629,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
-          <line>28</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="199" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
-          <line>24</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="202" />
         </line-breakpoint>
@@ -1688,7 +1653,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
-          <line>36</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="213" />
         </line-breakpoint>
@@ -1700,25 +1665,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
-          <line>33</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="216" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
-          <line>39</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
-          <line>122</line>
+          <line>123</line>
           <properties />
           <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
-          <line>119</line>
+          <line>120</line>
           <properties />
           <option name="timeStamp" value="219" />
         </line-breakpoint>
@@ -1782,8 +1747,26 @@
           <properties />
           <option name="timeStamp" value="234" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url />
+          <url>file://$USER_HOME$/Documents/WeChat Files/qsq198908/Files/fakeData.ts</url>
           <line>57</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
@@ -1808,7 +1791,7 @@
           <option name="timeStamp" value="229" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="235" />
+      <option name="time" value="239" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1844,13 +1827,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/SystemUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/user/userOperation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-454">
@@ -1882,25 +1858,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisDataServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/util/actions.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/entity/br/BrAnnotationData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="488" column="10" selection-start-line="488" selection-start-column="10" selection-end-line="488" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1960,27 +1922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GisDataDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisDataDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/icon-addlink.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -2019,54 +1960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="55" column="56" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="114" column="55" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemAdd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3013">
@@ -2084,56 +1977,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataAdd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemDelete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GisMenuDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="89" column="34" lean-forward="true" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemChange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="1476">
           <caret line="82" column="12" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="73" column="61" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -2151,17 +2002,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1740">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="37" />
           <folding>
             <element signature="e#484#485#0" expanded="true" />
             <element signature="e#547#548#0" expanded="true" />
@@ -2171,24 +2015,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataDelete.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="288">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataDelete.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="99" column="16" lean-forward="true" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationDatas/annotationDataDelete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-403">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/gis/annotationMenuItems/annotationMenuItemDelete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationMenuItems/annotationMenuItemDelete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        <state relative-caret-position="491">
+          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisDataDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/dao/Gis/GisMenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GisMenuDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/GisDataDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisMenuDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="79" column="11" lean-forward="true" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/com/ISCAS/OneBeltOneRoad/dao/GisDataDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="490" column="21" lean-forward="true" selection-start-line="490" selection-start-column="21" selection-end-line="490" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/GisDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+          <folding>
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/service/impl/GisMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="107" column="17" lean-forward="true" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/gis/annotationDatas/annotationDataDelete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="72" column="49" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationMenuItem/GisAnnotationMenuItemManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="159" column="112" selection-start-line="159" selection-start-column="112" selection-end-line="159" selection-end-column="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.8.7/jackson-core-2.8.7.jar!/com/fasterxml/jackson/core/type/TypeReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ISCAS/OneBeltOneRoad/web/background/annotationData/GisAnnotationDataManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="158" column="29" selection-start-line="158" selection-start-column="29" selection-end-line="158" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

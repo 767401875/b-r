@@ -3,6 +3,7 @@ package com.ISCAS.OneBeltOneRoad.web.background.annotationData;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationData;
 import com.ISCAS.OneBeltOneRoad.service.GisDataService;
 import com.ISCAS.OneBeltOneRoad.util.HttpServletRequestUtil;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -145,6 +146,37 @@ public class GisAnnotationDataManageController {
         }catch (Exception e){
             modelMap.put("success", false);
             modelMap.put("error", e.getMessage());
+        }
+        return modelMap;
+    }
+    @RequestMapping(value = "/deletebatch", method = RequestMethod.POST)
+    @ResponseBody
+    Map<String, Object> annotationDataDeleteBatch(HttpServletRequest request){
+        Map<String, Object> modelMap = new HashMap<>();
+        String brAnnotationDatasStr = HttpServletRequestUtil.getString(request, "brAnnotationDatasStr");
+        ObjectMapper mapper = new ObjectMapper();
+        try {
+            BrAnnotationData[] brAnnotationDatas = mapper.readValue(brAnnotationDatasStr, new TypeReference<BrAnnotationData[]>(){});
+            if(brAnnotationDatas != null){
+                Integer[] ids = new Integer[brAnnotationDatas.length];
+                for(int i = 0;i < brAnnotationDatas.length; i++){
+                    ids[i] = brAnnotationDatas[i].getId();
+                }
+                Integer count = gisDataService.removeBatchBrAnnotationData(ids);
+                if(count > 0){
+                    modelMap.put("success", true);
+                }
+                else {
+                    modelMap.put("success", false);
+                    modelMap.put("errMsg", "插入数据失败");
+                }
+            }else {
+                modelMap.put("success", false);
+                modelMap.put("errMsg","数据为空!");
+            }
+        }catch (Exception e){
+            modelMap.put("success", false);
+            modelMap.put("errMsg", e.getMessage());
         }
         return modelMap;
     }

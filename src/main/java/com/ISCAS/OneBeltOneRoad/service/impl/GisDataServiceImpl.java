@@ -41,4 +41,9 @@ public class GisDataServiceImpl implements GisDataService {
     public BrAnnotationData getBrAnnotationDataById(Integer id) {
         return gisDataDao.selectBrAnnotationDataById(id);
     }
+
+    @Override
+    public Integer removeBatchBrAnnotationData(Integer[] ids) {
+        return gisDataDao.deleteBatchBrAnnotationData(ids);
+    }
 }

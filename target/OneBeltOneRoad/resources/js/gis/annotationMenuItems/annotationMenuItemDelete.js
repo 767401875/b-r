@@ -74,7 +74,6 @@ $(function () {
                 }
             });
         }
-
         if(brAnnotationMenuItems != null){
             var deleteUrl = "/annotationmenuitemmanage/deletebatch";
             formData.append("brAnnotationMenuItemsStr", JSON.stringify(brAnnotationMenuItems));
@@ -95,8 +94,6 @@ $(function () {
                 }
             });
         }
-
-
         var listUrl = "/annotationmenuitem/list"
         window.location.href = listUrl;
         window.event.returnValue = false;
@@ -105,5 +102,4 @@ $(function () {
         window.location.href = document.referrer;
         window.event.returnValue = false;
     })
-    // localStorage.clear();
 })

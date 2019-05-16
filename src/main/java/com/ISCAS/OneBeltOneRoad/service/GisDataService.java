@@ -9,6 +9,7 @@ public interface GisDataService {
     Integer addBrAnnotationData(BrAnnotationData brAnnotationData);
     Integer modifyBrAnnotationData(BrAnnotationData brAnnotationData);
     Integer removeBrAnnotationData(Integer id);
+    Integer removeBatchBrAnnotationData(Integer[] ids);
     List<BrAnnotationData> getBrAnnotationDataAll();
     BrAnnotationData getBrAnnotationDataById(Integer id);
 }

@@ -484,11 +484,18 @@ public class GisDataDaoTest extends BaseTest {
         System.out.println(result.getName());
     }
     @Test
+    @Ignore
     public void deleteBrAnnotationDataList(){
         List<Integer> ids = new ArrayList<Integer>();
         ids.add(103);
         ids.add(117);
         int count = gisDataDao.deleteBrAnnotationDataList(ids);
         System.out.println("delete count:" + count);
+    }
+    @Test
+    public void deleteBatchBrAnnotationDataTest(){
+        Integer[] ids = {152, 153};
+        Integer count = gisDataDao.deleteBatchBrAnnotationData(ids);
+        System.out.println(count);
     }
 }

@@ -11,5 +11,6 @@ public interface GisDataDao {
     Integer deleteBrAnnotationData(Integer id);
     Integer deleteBrAnnotationDataList(List<Integer> ids);
     BrAnnotationData selectBrAnnotationDataById(Integer id);
+    Integer deleteBatchBrAnnotationData(Integer[] ids);
     List<BrAnnotationData> selectBrAnnotationDataAll();
 }
