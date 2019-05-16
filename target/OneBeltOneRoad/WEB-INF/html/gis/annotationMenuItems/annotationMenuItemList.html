@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>选择标注菜单项进行改变|一带一路绿色丝绸之路智能决策系统的管理员</title>
+    <link rel="stylesheet" type="text/css" href="../../../../resources/css/gis/base.css">
+    <link rel="stylesheet" type="text/css" href="../../../../resources/css/gis/changelists.css">
+</head>
+
+<body class=" app-data model-annotationmenuitem change-list" data-admin-utc-offset="0">
+<!-- Container -->
+<div id="container">
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+            <h1 id="site-name"><a href="/admin/">一带一路绿色丝绸之路智能决策系统的管理员</a></h1>
+        </div>
+        <div id="user-tools">
+            欢迎,
+            <strong>root</strong>.
+            <a href="/">访问网站</a> /
+            <a href="/admin/password_change/">改变密码</a> /
+            <a href="/admin/logout/">登出</a>
+        </div>
+    </div>
+    <!-- END Header -->
+    <div class="breadcrumbs">
+        <a href="/admin/">首页</a> ›
+        <a href="/admin/data/">数据</a> › 标注菜单项
+    </div>
+    <!-- Content -->
+    <div id="content" class="flex">
+        <h1>
+            选择标注菜单项进行修改
+        </h1>
+        <div id="content-main">
+            <ul class="object-tools">
+                <li>
+                    <a href="/admin/data/annotationmenuitem/add/" class="addlink">
+                        增加标注菜单项
+                    </a>
+                </li>
+            </ul>
+            <div class="module" id="changelist">
+                <form id="changelist-form" method="post" novalidate>
+                    <div class="actions">
+                        <label>
+                            动作:
+                            <select name="action" required>
+                                <option value="" selected>
+                                    ---------
+                                </option>
+                                <option value="delete_selected">
+                                    删除被选择的标注菜单项
+                                </option>
+                            </select>
+                        </label>
+                        <input type="hidden" name="select_across" value="0" class="select-across">
+                        <button id="submit" type="submit" class="button" title="Run the selected action" name="index"
+                                value="0">
+                            执行
+                        </button>
+                        <span class="action-counter" data-actions-icnt="55">
+                                    0 of 55 项
+                        </span>
+                    </div>
+                    <div class="results">
+                        <table id="result_list">
+                            <thead>
+                            <tr>
+                                <th scope="col" class="action-checkbox-column">
+                                    <div class="text"><span><input type="checkbox" id="action-toggle"></span></div>
+                                    <div class="clear">
+                                    </div>
+                                </th>
+                                <th scope="col" class="column-__str__">
+                                    <div class="text"><span>标注菜单项</span></div>
+                                    <div class="clear">
+                                    </div>
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="paginator">
+                        55个 标注菜单项
+                    </p>
+                    <script src="../../../../framework/jquery-3.3.1/js/jquery-3.3.1.js"></script>
+                    <script src="../../../../resources/js/gis/annotationMenuItems/annotationMenuItemList.js"></script>
+                    <script src="../../../../resources/js/util/util.js"></script>
+                </form>
+            </div>
+        </div>
+        <br class="clear">
+    </div>
+    <!-- END Content -->
+    <div id="footer">
+    </div>
+</div>
+<!-- END Container -->
+</body>
+
+</html>

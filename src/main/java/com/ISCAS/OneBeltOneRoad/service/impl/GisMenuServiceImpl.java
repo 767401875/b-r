@@ -1,7 +1,7 @@
 package com.ISCAS.OneBeltOneRoad.service.impl;
 
 import com.ISCAS.OneBeltOneRoad.dao.Gis.GisMenuDao;
-import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotations;
+import com.ISCAS.OneBeltOneRoad.entity.br.BrAnnotationMenuItem;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrMaps;
 import com.ISCAS.OneBeltOneRoad.entity.br.BrHomeMenu;
 import com.ISCAS.OneBeltOneRoad.service.GisMenuService;
@@ -30,7 +30,7 @@ public class GisMenuServiceImpl implements GisMenuService {
     }
 
     @Override
-    public List<BrAnnotations> getBrAnnotations() {
+    public List<BrAnnotationMenuItem> getBrAnnotationMenuItems() {
         return gisMenuDao.queryBrAnnotationsAll();
     }
 
@@ -47,5 +47,30 @@ public class GisMenuServiceImpl implements GisMenuService {
     @Override
     public Integer getMenuItemCount() {
         return gisMenuDao.queryMenuItemCount();
+    }
+
+    @Override
+    public Integer addBrAnnotationMenuItem(BrAnnotationMenuItem brAnnotationMenuItem) {
+        return gisMenuDao.insertBrAnnotationMenuItem(brAnnotationMenuItem);
+    }
+
+    @Override
+    public Integer modifyBrAnnotationMenuItem(BrAnnotationMenuItem brAnnotationMenuItem) {
+        return gisMenuDao.updateBrAnnotationMenuItem(brAnnotationMenuItem);
+    }
+
+    @Override
+    public Integer removeBrAnnotationMenuItem(Integer id) {
+        return gisMenuDao.deleteBrAnnotationMenuItem(id);
+    }
+
+    @Override
+    public BrAnnotationMenuItem getBrAnnotationMenuItemById(Integer id) {
+        return gisMenuDao.selectBrAnnotationMenuItemById(id);
+    }
+
+    @Override
+    public Integer removeBatchBrAnnotationMenuItem(Integer[] ids) {
+        return gisMenuDao.deleteBatchBrAnnotationMenuItem(ids);
     }
 }
